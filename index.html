@@ -3,14 +3,28 @@
     <head>
         <title>Myfirst page</title>
     </head>
-    <body style="backface-visibility: hidden;background-color: lightsteelblue;">
+    <body style="background-color: lightsteelblue;padding-left:5%;
+    display:grid;
+    grid-template-columns: 50% auto;">
         <p title="paragraph">This is the first paragraph</p>
         <h1>This is the heading no 1</h1>
         <p>This is the second paragraph</p>
         <hr>
-        <div style="flex-direction: column; width:50%;height: 35%; color:blue;background-color: aqua;">
-            <span>
+        <div style="width:50%;height: 35%; color:blue;background-color: aqua;">
+            <span style="width:fit-content; background-color: blue; color:white">
                 <h5 style="text-transform: capitalize;">Almadrasatul swaabirina a</h2>
             </span>
+            <div style="display:grid;
+                        grid-template-columns:60% auto;
+                        background-color: chartreuse;
+                         display:grid">
+                <span>
+                    <h6>This is the heading number 6</h6>
+                </span>
+                <div style="background-color:red;">
+                    <h1 style="text-decoration: dotted;font-weight: bold;">My name is Omar</h1>
+                </div>
+            </div>
         </div>
+     
     </body>
