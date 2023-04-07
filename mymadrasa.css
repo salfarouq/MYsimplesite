@@ -1,0 +1,50 @@
+body{
+    background-color: lightblue;
+    font-family:Cambria;
+}
+
+
+div.mylogo{
+     height:100px;
+     width:100px;  
+     border-radius:20px 0 20px 0;
+     background-color:white;
+     margin:5%;
+    }
+    .mylogo:hover{
+     transition-duration:2s;
+     transition-timing-function:ease;
+     transform:rotate(45deg);
+     transition-property:background;
+     background-color:green;
+    }
+.header{
+    background-color:blue;
+    color:aqua;
+    font-family:Georgia;
+    text-align:center;
+    text-transform:capitalize;
+}
+.footer{
+margin-top:35%;
+color:white;
+height:10%;
+background-color: green;
+position:sticky;
+text-decoration:solid;
+}
+.cards {
+    background-color: white;
+    color:black;
+    height:45%;
+   display:grid;
+   grid-template-columns:25% 50% 10%;
+}
+.card3 {
+    background-color: rgb(255, 255, 255);
+    color:black;
+    height:45px;
+    width:75px;
+   display:grid;
+   grid-template-columns:50%;
+}
