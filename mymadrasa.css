@@ -26,25 +26,62 @@ div.mylogo{
     text-transform:capitalize;
 }
 .footer{
-margin-top:35%;
+margin-top:400px;
 color:white;
 height:10%;
 background-color: green;
-position:sticky;
+position:relative sticky;
 text-decoration:solid;
 }
 .cards {
+    margin-top:25px;
     background-color: white;
-    color:black;
-    height:45%;
-   display:grid;
-   grid-template-columns:25% 50% 10%;
+    display:grid;
+    height:70%;
+    grid-template-columns: 30% 40% 30%;
+    
 }
-.card3 {
-    background-color: rgb(255, 255, 255);
+.card{
+    background-color: blue;
+    padding:20px;
+    margin:20px;
+    height:60px;
+    color-scheme:initial;
+}
+.card:hover{
+    background-color:lightblue;
+    font-size: 20px;
+    color:white;
+    font-family:Impact;
+    padding:20px;
+    width:45%;
+    height:50%;
+    margin:20px;
+    border-radius:20px 0px 20px 0px;
+}
+.cards:hover{
+    background-color: aqua;
+    height:70%;
+}
+.nurve{
+    background-color:WHITE;
     color:black;
-    height:45px;
-    width:75px;
-   display:grid;
-   grid-template-columns:50%;
+    text-transform:capitalize;
+    font-size:20px;
+}
+ul li {
+    display:inline-block;
+    color:black;
+}
+
+ul li a{
+    display:none;
+    text-decoration: none;
+    list-style: none;
+    background-color: black;
+    color:white;
+}
+
+ul li :hover ul li a{
+    display:block;
 }
