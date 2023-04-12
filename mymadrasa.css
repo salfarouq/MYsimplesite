@@ -74,14 +74,20 @@ ul li {
     color:black;
 }
 
-ul li a{
+ul li ul li a{
     display:none;
     text-decoration: none;
     list-style: none;
     background-color: black;
     color:white;
 }
+ul li:hover{
+    background:black;
+    color:whitesmoke;
+}
 
 ul li :hover ul li a{
     display:block;
+    color:white;
+    text-decoration: none;
 }
